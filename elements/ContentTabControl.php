@@ -65,8 +65,6 @@ class ContentTabControl extends ContentElement
                                 $objCallback = System::importStatic($callback[0]);
                                 $objCallback->{$callback[1]}();
                             }
-                        } else {
-                            $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/tabcontrol/assets/js/moo_tabcontrol.js';
                         }
                     }
                     elseif (!in_array($this->strPlugin, $GLOBALS['TL_JAVASCRIPT'])) {
@@ -75,8 +73,6 @@ class ContentTabControl extends ContentElement
                                 $objCallback = System::importStatic($callback[0]);
                                 $objCallback->{$callback[1]}();
                             }
-                        } else {
-                            $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/tabcontrol/assets/js/moo_tabcontrol.js';
                         }
                     }
 
