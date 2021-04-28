@@ -1,5 +1,5 @@
 {
-  "name":"christianbarkowsky/contao-tabcontrol",
+  "name":"erdmannfreunde/contao-tabcontrol",
   "description":"Create tabs as content element. Extension for Contao Open Source CMS",
   "keywords":["tab", "tabs", "tabcontrol", "contao"],
   "type":"contao-module",
